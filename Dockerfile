@@ -30,7 +30,7 @@ FROM adoptopenjdk:11-jre-hotspot as builder
 LABEL stage=builder
 WORKDIR application
 
-COPY --from=compiler workdir/main/target/application.jar ./
+COPY --from=compiler workdir/target/application.jar ./
 RUN java -Djarmode=layertools -jar application.jar extract
 
 # image
