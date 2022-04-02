@@ -8,7 +8,7 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<groupId>com.example</groupId>
 	<artifactId>spring4shell-vulnerable-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
